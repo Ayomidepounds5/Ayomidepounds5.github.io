@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f7fa" />
+  
+  <!-- Main Container -->
+  <rect x="50" y="50" width="700" height="500" rx="5" fill="#fff" stroke="#eee" stroke-width="1" />
+  
+  <!-- Header -->
+  <rect x="50" y="50" width="700" height="70" rx="5" fill="#fff" stroke="#eee" stroke-width="1" />
+  <text x="100" y="90" font-family="Arial" font-size="24" font-weight="bold" fill="#0077B5">ArtisanMarket</text>
+  
+  <!-- Search Bar -->
+  <rect x="300" y="70" width="250" height="30" rx="15" fill="#f0f4f8" />
+  <circle cx="320" cy="85" r="8" fill="none" stroke="#aaa" stroke-width="2" />
+  <line x1="325" y1="90" x2="330" y2="95" stroke="#aaa" stroke-width="2" />
+  <text x="340" y="90" font-family="Arial" font-size="12" fill="#aaa">Search handcrafted items...</text>
+  
+  <!-- Nav Icons -->
+  <circle cx="590" cy="85" r="12" fill="#f0f4f8" />
+  <circle cx="630" cy="85" r="12" fill="#f0f4f8" />
+  <circle cx="670" cy="85" r="12" fill="#f0f4f8" />
+  <text x="590" y="90" font-family="Arial" font-size="16" text-anchor="middle" fill="#666">♥</text>
+  <text x="630" y="90" font-family="Arial" font-size="16" text-anchor="middle" fill="#666">👤</text>
+  <text x="670" y="90" font-family="Arial" font-size="16" text-anchor="middle" fill="#666">🛒</text>
+  
+  <!-- Categories -->
+  <rect x="100" y="140" width="100" height="30" rx="15" fill="#0077B5" />
+  <rect x="210" y="140" width="100" height="30" rx="15" fill="#f0f4f8" />
+  <rect x="320" y="140" width="100" height="30" rx="15" fill="#f0f4f8" />
+  <rect x="430" y="140" width="100" height="30" rx="15" fill="#f0f4f8" />
+  <rect x="540" y="140" width="100" height="30" rx="15" fill="#f0f4f8" />
+  
+  <text x="150" y="160" font-family="Arial" font-size="12" text-anchor="middle" fill="#fff">All Items</text>
+  <text x="260" y="160" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Pottery</text>
+  <text x="370" y="160" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Textiles</text>
+  <text x="480" y="160" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Jewelry</text>
+  <text x="590" y="160" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Woodwork</text>
+  
+  <!-- Featured Section -->
+  <text x="100" y="210" font-family="Arial" font-size="20" font-weight="bold" fill="#333">Featured Artisans</text>
+  
+  <!-- Product Grid -->
+  <rect x="100" y="230" width="150" height="150" fill="#f8f9fa" />
+  <rect x="100" y="230" width="150" height="120" fill="#e3f2fd" />
+  <text x="175" y="290" font-family="Arial" font-size="12" text-anchor="middle" fill="#fff" stroke="#000" stroke-width="0.5">Handwoven Basket</text>
+  <text x="175" y="350" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">$45.99</text>
+  <circle cx="120" cy="360" r="10" fill="#fff" stroke="#0077B5" stroke-width="1" />
+  <text x="120" y="364" font-family="Arial" font-size="12" text-anchor="middle" fill="#0077B5">+</text>
+  
+  <rect x="270" y="230" width="150" height="150" fill="#f8f9fa" />
+  <rect x="270" y="230" width="150" height="120" fill="#fff3e0" />
+  <text x="345" y="290" font-family="Arial" font-size="12" text-anchor="middle" fill="#fff" stroke="#000" stroke-width="0.5">Clay Pottery Set</text>
+  <text x="345" y="350" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">$89.99</text>
+  <circle cx="290" cy="360" r="10" fill="#fff" stroke="#0077B5" stroke-width="1" />
+  <text x="290" y="364" font-family="Arial" font-size="12" text-anchor="middle" fill="#0077B5">+</text>
+  
+  <rect x="440" y="230" width="150" height="150" fill="#f8f9fa" />
+  <rect x="440" y="230" width="150" height="120" fill="#e8f5e9" />
+  <text x="515" y="290" font-family="Arial" font-size="12" text-anchor="middle" fill="#fff" stroke="#000" stroke-width="0.5">Handmade Scarf</text>
+  <text x="515" y="350" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">$32.50</text>
+  <circle cx="460" cy="360" r="10" fill="#fff" stroke="#0077B5" stroke-width="1" />
+  <text x="460" y="364" font-family="Arial" font-size="12" text-anchor="middle" fill="#0077B5">+</text>
+  
+  <rect x="610" y="230" width="150" height="150" fill="#f8f9fa" />
+  <rect x="610" y="230" width="150" height="120" fill="#fce4ec" />
+  <text x="685" y="290" font-family="Arial" font-size="12" text-anchor="middle" fill="#fff" stroke="#000" stroke-width="0.5">Silver Earrings</text>
+  <text x="685" y="350" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">$65.00</text>
+  <circle cx="630" cy="360" r="10" fill="#fff" stroke="#0077B5" stroke-width="1" />
+  <text x="630" y="364" font-family="Arial" font-size="12" text-anchor="middle" fill="#0077B5">+</text>
+  
+  <!-- Second Row -->
+  <rect x="100" y="400" width="150" height="150" fill="#f8f9fa" />
+  <rect x="100" y="400" width="150" height="120" fill="#e0f7fa" />
+  <text x="175" y="460" font-family="Arial" font-size="12" text-anchor="middle" fill="#fff" stroke="#000" stroke-width="0.5">Wooden Bowl</text>
+  <text x="175" y="520" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">$29.99</text>
+  <circle cx="120" cy="530" r="10" fill="#fff" stroke="#0077B5" stroke-width="1" />
+  <text x="120" y="534" font-family="Arial" font-size="12" text-anchor="middle" fill="#0077B5">+</text>
+  
+  <rect x="270" y="400" width="150" height="150" fill="#f8f9fa" />
+  <rect x="270" y="400" width="150" height="120" fill="#f3e5f5" />
+  <text x="345" y="460" font-family="Arial" font-size="12" text-anchor="middle" fill="#fff" stroke="#000" stroke-width="0.5">Woven Wall Art</text>
+  <text x="345" y="520" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">$78.50</text>
+  <circle cx="290" cy="530" r="10" fill="#fff" stroke="#0077B5" stroke-width="1" />
+  <text x="290" y="534" font-family="Arial" font-size="12" text-anchor="middle" fill="#0077B5">+</text>
+  
+  <rect x="440" y="400" width="150" height="150" fill="#f8f9fa" />
+  <rect x="440" y="400" width="150" height="120" fill="#fff8e1" />
+  <text x="515" y="460" font-family="Arial" font-size="12" text-anchor="middle" fill="#fff" stroke="#000" stroke-width="0.5">Beaded Necklace</text>
+  <text x="515" y="520" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">$42.00</text>
+  <circle cx="460" cy="530" r="10" fill="#fff" stroke="#0077B5" stroke-width="1" />
+  <text x="460" y="534" font-family="Arial" font-size="12" text-anchor="middle" fill="#0077B5">+</text>
+  
+  <rect x="610" y="400" width="150" height="150" fill="#f8f9fa" />
+  <rect x="610" y="400" width="150" height="120" fill="#e8eaf6" />
+  <text x="685" y="460" font-family="Arial" font-size="12" text-anchor="middle" fill="#fff" stroke="#000" stroke-width="0.5">Leather Wallet</text>
+  <text x="685" y="520" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">$55.99</text>
+  <circle cx="630" cy="530" r="10" fill="#fff" stroke="#0077B5" stroke-width="1" />
+  <text x="630" y="534" font-family="Arial" font-size="12" text-anchor="middle" fill="#0077B5">+</text>
+</svg>

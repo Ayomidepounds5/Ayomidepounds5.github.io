@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f7fa" />
+  
+  <!-- Device Frame -->
+  <rect x="100" y="50" width="600" height="400" rx="10" fill="#fff" stroke="#ddd" stroke-width="2" />
+  
+  <!-- Header -->
+  <rect x="100" y="50" width="600" height="60" rx="10" fill="#0077B5" />
+  <circle cx="130" cy="80" r="15" fill="#fff" />
+  <rect x="160" y="70" width="120" height="20" rx="5" fill="#fff" />
+  <rect x="550" y="70" width="30" height="20" rx="5" fill="#fff" />
+  <rect x="600" y="70" width="30" height="20" rx="5" fill="#fff" />
+  <rect x="650" y="70" width="30" height="20" rx="5" fill="#fff" />
+  
+  <!-- Sidebar -->
+  <rect x="100" y="110" width="150" height="340" fill="#f0f4f8" />
+  <rect x="120" y="140" width="110" height="20" rx="3" fill="#0077B5" />
+  <rect x="120" y="180" width="110" height="20" rx="3" fill="#ddd" />
+  <rect x="120" y="220" width="110" height="20" rx="3" fill="#ddd" />
+  <rect x="120" y="260" width="110" height="20" rx="3" fill="#ddd" />
+  <rect x="120" y="300" width="110" height="20" rx="3" fill="#ddd" />
+  <rect x="120" y="340" width="110" height="20" rx="3" fill="#ddd" />
+  <rect x="120" y="380" width="110" height="20" rx="3" fill="#ddd" />
+  
+  <!-- Content Area - Course Grid -->
+  <rect x="270" y="130" width="410" height="60" rx="5" fill="#e6f0f9" />
+  <rect x="290" y="145" width="220" height="30" rx="3" fill="#fff" />
+  <rect x="530" y="145" width="120" height="30" rx="15" fill="#0077B5" />
+  
+  <!-- Course Cards -->
+  <rect x="270" y="210" width="190" height="140" rx="5" fill="#fff" stroke="#ddd" stroke-width="1" />
+  <rect x="270" y="210" width="190" height="90" rx="5" fill="#6bb9f0" />
+  <rect x="285" y="315" width="160" height="12" rx="2" fill="#333" />
+  <rect x="285" y="335" width="100" height="8" rx="2" fill="#999" />
+  
+  <rect x="480" y="210" width="190" height="140" rx="5" fill="#fff" stroke="#ddd" stroke-width="1" />
+  <rect x="480" y="210" width="190" height="90" rx="5" fill="#f0b27a" />
+  <rect x="495" y="315" width="160" height="12" rx="2" fill="#333" />
+  <rect x="495" y="335" width="100" height="8" rx="2" fill="#999" />
+  
+  <rect x="270" y="370" width="190" height="140" rx="5" fill="#fff" stroke="#ddd" stroke-width="1" />
+  <rect x="270" y="370" width="190" height="90" rx="5" fill="#c8f7c5" />
+  <rect x="285" y="475" width="160" height="12" rx="2" fill="#333" />
+  <rect x="285" y="495" width="100" height="8" rx="2" fill="#999" />
+  
+  <rect x="480" y="370" width="190" height="140" rx="5" fill="#fff" stroke="#ddd" stroke-width="1" />
+  <rect x="480" y="370" width="190" height="90" rx="5" fill="#fde3a7" />
+  <rect x="495" y="475" width="160" height="12" rx="2" fill="#333" />
+  <rect x="495" y="495" width="100" height="8" rx="2" fill="#999" />
+  
+  <!-- UI Elements -->
+  <circle cx="175" cy="80" r="5" fill="#fff" />
+  <rect x="550" y="145" width="80" height="30" rx="15" fill="#fff" stroke="#0077B5" stroke-width="2" />
+  
+  <!-- Progress indicators -->
+  <circle cx="365" cy="555" r="8" fill="#0077B5" />
+  <circle cx="395" cy="555" r="8" fill="#ddd" />
+  <circle cx="425" cy="555" r="8" fill="#ddd" />
+  <circle cx="455" cy="555" r="8" fill="#ddd" />
+</svg>

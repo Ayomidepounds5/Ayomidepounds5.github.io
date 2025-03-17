@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f7fa" />
+  
+  <!-- Dashboard Container -->
+  <rect x="50" y="50" width="700" height="500" rx="8" fill="#fff" stroke="#eaeaea" stroke-width="1" />
+  
+  <!-- Sidebar -->
+  <rect x="50" y="50" width="200" height="500" rx="8" fill="#0077B5" />
+  
+  <!-- Logo Area -->
+  <rect x="75" y="80" width="150" height="40" rx="5" fill="#fff" opacity="0.2" />
+  <text x="100" y="105" font-family="Arial" font-size="16" font-weight="bold" fill="#fff">HealthConnect</text>
+  <circle cx="170" cy="100" r="10" fill="#fff" />
+  <text x="170" y="105" font-family="Arial" font-size="16" text-anchor="middle" fill="#0077B5">+</text>
+  
+  <!-- Menu Items -->
+  <rect x="75" y="150" width="150" height="40" rx="5" fill="#fff" opacity="0.2" />
+  <text x="110" y="175" font-family="Arial" font-size="14" fill="#fff">Dashboard</text>
+  
+  <rect x="75" y="200" width="150" height="40" rx="5" fill="transparent" />
+  <text x="110" y="225" font-family="Arial" font-size="14" fill="#fff" opacity="0.7">Patients</text>
+  
+  <rect x="75" y="250" width="150" height="40" rx="5" fill="transparent" />
+  <text x="110" y="275" font-family="Arial" font-size="14" fill="#fff" opacity="0.7">Appointments</text>
+  
+  <rect x="75" y="300" width="150" height="40" rx="5" fill="transparent" />
+  <text x="110" y="325" font-family="Arial" font-size="14" fill="#fff" opacity="0.7">Medical Records</text>
+  
+  <rect x="75" y="350" width="150" height="40" rx="5" fill="transparent" />
+  <text x="110" y="375" font-family="Arial" font-size="14" fill="#fff" opacity="0.7">Billing</text>
+  
+  <rect x="75" y="400" width="150" height="40" rx="5" fill="transparent" />
+  <text x="110" y="425" font-family="Arial" font-size="14" fill="#fff" opacity="0.7">Reports</text>
+  
+  <rect x="75" y="450" width="150" height="40" rx="5" fill="transparent" />
+  <text x="110" y="475" font-family="Arial" font-size="14" fill="#fff" opacity="0.7">Settings</text>
+  
+  <!-- Main Content Area -->
+  <rect x="250" y="50" width="500" height="500" fill="#fff" />
+  
+  <!-- Header -->
+  <text x="280" y="100" font-family="Arial" font-size="24" font-weight="bold" fill="#333">Dashboard Overview</text>
+  
+  <!-- Search -->
+  <rect x="550" y="80" width="170" height="30" rx="15" fill="#f0f4f8" />
+  <text x="570" y="100" font-family="Arial" font-size="12" fill="#aaa">Search...</text>
+  
+  <!-- Stats Cards -->
+  <rect x="280" y="130" width="140" height="100" rx="8" fill="#e3f2fd" />
+  <text x="300" y="160" font-family="Arial" font-size="14" fill="#333">Total Patients</text>
+  <text x="300" y="190" font-family="Arial" font-size="24" font-weight="bold" fill="#0077B5">2,543</text>
+  <polyline points="300,210 320,200 340,205 360,190 380,195" fill="none" stroke="#0077B5" stroke-width="2" />
+  
+  <rect x="440" y="130" width="140" height="100" rx="8" fill="#e8f5e9" />
+  <text x="460" y="160" font-family="Arial" font-size="14" fill="#333">Appointments</text>
+  <text x="460" y="190" font-family="Arial" font-size="24" font-weight="bold" fill="#43a047">182</text>
+  <polyline points="460,210 480,205 500,180 520,190 540,175" fill="none" stroke="#43a047" stroke-width="2" />
+  
+  <rect x="600" y="130" width="140" height="100" rx="8" fill="#fff3e0" />
+  <text x="620" y="160" font-family="Arial" font-size="14" fill="#333">New Today</text>
+  <text x="620" y="190" font-family="Arial" font-size="24" font-weight="bold" fill="#ff9800">28</text>
+  <polyline points="620,210 640,200 660,210 680,195 700,205" fill="none" stroke="#ff9800" stroke-width="2" />
+  
+  <!-- Chart Area -->
+  <rect x="280" y="250" width="460" height="140" rx="8" fill="#f8f9fa" stroke="#eaeaea" stroke-width="1" />
+  <text x="300" y="280" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Patient Visits</text>
+  
+  <!-- Bar Chart -->
+  <rect x="300" y="300" width="30" height="70" fill="#0077B5" opacity="0.7" />
+  <rect x="340" y="330" width="30" height="40" fill="#0077B5" opacity="0.7" />
+  <rect x="380" y="310" width="30" height="60" fill="#0077B5" opacity="0.7" />
+  <rect x="420" y="290" width="30" height="80" fill="#0077B5" opacity="0.7" />
+  <rect x="460" y="320" width="30" height="50" fill="#0077B5" opacity="0.7" />
+  <rect x="500" y="280" width="30" height="90" fill="#0077B5" opacity="0.7" />
+  <rect x="540" y="340" width="30" height="30" fill="#0077B5" opacity="0.7" />
+  <rect x="580" y="300" width="30" height="70" fill="#0077B5" opacity="0.7" />
+  <rect x="620" y="310" width="30" height="60" fill="#0077B5" opacity="0.7" />
+  <rect x="660" y="330" width="30" height="40" fill="#0077B5" opacity="0.7" />
+  
+  <!-- X-axis -->
+  <line x1="300" y1="380" x2="690" y2="380" stroke="#ddd" stroke-width="1" />
+  <text x="315" y="400" font-family="Arial" font-size="10" text-anchor="middle" fill="#999">Jan</text>
+  <text x="355" y="400" font-family="Arial" font-size="10" text-anchor="middle" fill="#999">Feb</text>
+  <text x="395" y="400" font-family="Arial" font-size="10" text-anchor="middle" fill="#999">Mar</text>
+  <text x="435" y="400" font-family="Arial" font-size="10" text-anchor="middle" fill="#999">Apr</text>
+  <text x="475" y="400" font-family="Arial" font-size="10" text-anchor="middle" fill="#999">May</text>
+  <text x="515" y="400" font-family="Arial" font-size="10" text-anchor="middle" fill="#999">Jun</text>
+  <text x="555" y="400" font-family="Arial" font-size="10" text-anchor="middle" fill="#999">Jul</text>
+  <text x="595" y="400" font-family="Arial" font-size="10" text-anchor="middle" fill="#999">Aug</text>
+  <text x="635" y="400" font-family="Arial" font-size="10" text-anchor="middle" fill="#999">Sep</text>
+  <text x="675" y="400" font-family="Arial" font-size="10" text-anchor="middle" fill="#999">Oct</text>
+  
+  <!-- Recent Patients -->
+  <rect x="280" y="410" width="280" height="130" rx="8" fill="#f8f9fa" stroke="#eaeaea" stroke-width="1" />
+  <text x="300" y="440" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Recent Patients</text>
+  
+  <!-- Patient List -->
+  <circle cx="315" cy="470" r="15" fill="#0077B5" opacity="0.2" />
+  <text x="315" y="475" font-family="Arial" font-size="12" text-anchor="middle" fill="#0077B5">JS</text>
+  <text x="345" y="475" font-family="Arial" font-size="14" fill="#333">John Smith</text>
+  
+  <circle cx="315" cy="500" r="15" fill="#0077B5" opacity="0.2" />
+  <text x="315" y="505" font-family="Arial" font-size="12" text-anchor="middle" fill="#0077B5">AD</text>
+  <text x="345" y="505" font-family="Arial" font-size="14" fill="#333">Alice Davis</text>
+  
+  <circle cx="315" cy="530" r="15" fill="#0077B5" opacity="0.2" />
+  <text x="315" y="535" font-family="Arial" font-size="12" text-anchor="middle" fill="#0077B5">RJ</text>
+  <text x="345" y="535" font-family="Arial" font-size="14" fill="#333">Robert Johnson</text>
+  
+  <!-- Upcoming -->
+  <rect x="580" y="410" width="160" height="130" rx="8" fill="#f8f9fa" stroke="#eaeaea" stroke-width="1" />
+  <text x="600" y="440" font-family="Arial" font-size="16" font-weight="bold" fill="#333">Today</text>
+  
+  <rect x="600" y="460" width="120" height="25" rx="3" fill="#e3f2fd" />
+  <text x="610" y="477" font-family="Arial" font-size="12" fill="#0077B5">09:30 - Check-up</text>
+  
+  <rect x="600" y="495" width="120" height="25" rx="3" fill="#e3f2fd" />
+  <text x="610" y="512" font-family="Arial" font-size="12" fill="#0077B5">11:00 - Lab Results</text>
+  
+  <rect x="600" y="530" width="120" height="25" rx="3" fill="#e3f2fd" />
+  <text x="610" y="547" font-family="Arial" font-size="12" fill="#0077B5">14:15 - Consultation</text>
+</svg>
