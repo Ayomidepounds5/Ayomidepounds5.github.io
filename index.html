@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -47,7 +47,7 @@
         header {
             background-color: var(--white);
             box-shadow: var(--shadow);
-            position: sticky;
+            position: fixed;
             width: 100%;
             top: 0;
             z-index: 1000;
@@ -667,74 +667,22 @@
 
         @media screen and (max-width: 768px) {
             .nav-links {
-                position: fixed;
-                background-color: var(--white);
-                height: 100vh;
-                width: 100%;
-                top: 0;
-                left: -100%;
-                text-align: center;
-                padding-top: 80px;
-                flex-direction: column;
-                transition: all 0.3s ease;
-            }
-
-            .nav-links.active {
-                left: 0;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
             }
 
             .nav-links li {
-                margin: 25px 0;
-            }
-
-            .hamburger {
-                display: block;
-                z-index: 999;
-            }
-
-            .hamburger .bar {
-                display: block;
-                width: 25px;
-                height: 3px;
-                margin: 5px auto;
-                background-color: var(--text-color);
-                transition: all 0.3s ease;
-            }
-
-            .hamburger.active .bar:nth-child(1) {
-                transform: translateY(8px) rotate(45deg);
-            }
-
-            .hamburger.active .bar:nth-child(2) {
-                opacity: 0;
-            }
-
-            .hamburger.active .bar:nth-child(3) {
-                transform: translateY(-8px) rotate(-45deg);
+                margin: 0 10px;
             }
             
-        }
-
-        @media screen and (max-width: 767px) {
-            .timeline::after {
-                left: 31px;
+            .nav-container {
+                flex-direction: column;
+                align-items: center;
             }
             
-            .timeline-item {
-                width: 100%;
-                padding-left: 70px;
-                padding-right: 25px;
-                margin-bottom: 20px;
-            }
-            
-            .timeline-item:nth-child(odd),
-            .timeline-item:nth-child(even) {
-                left: 0;
-            }
-            
-            .timeline-item::after {
-                left: 20px;
-                right: auto;
+            .logo {
+                margin-bottom: 15px;
             }
         }
     </style>
@@ -751,11 +699,6 @@
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-                <div class="hamburger">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
             </nav>
         </div>
     </header>
@@ -765,10 +708,9 @@
         <div class="container">
             <div class="hero-content" style="width: 100%; text-align: center; padding-right: 0;">
                 <h1>Frances Odurukwe</h1>
-                <p>UX Designer & Product Manager with expertise in creating user-centered digital experiences that drive business growth.</p>
+                <p>Business Analytics, UX Designer & Product Manager with expertise in creating user-centered digital experiences that drive business growth.</p>
                 <div class="hero-image" style="margin: 30px auto;">
                     <img src="pounds_profile.png" alt="Frances Odurukwe">
-                    <!-- <img src="https://claude.ai/download/anthropic-claude/conversation/49df6e32-c27c-4842-ada3-9c36ee69c52b/attachment/c27c4842-ada3-9c36-ee69c52b/0" alt="Frances Odurukwe"> -->
                 </div>
                 <div>
                     <a href="#contact" class="cta-btn">Contact Me</a>
@@ -974,35 +916,29 @@
                         <i class="fas fa-envelope"></i>
                         <div>
                             <h4>Email</h4>
-                            <p>frances.odurukwe@example.com</p>
+                            <p><a href="mailto:Jokupounds@gmail.com">Jokupounds@gmail.com</a></p>
                         </div>
                     </div>
                     <div class="contact-info-item">
                         <i class="fas fa-phone"></i>
                         <div>
                             <h4>Phone</h4>
-                            <p>+234 123 456 7890</p>
+                            <p>519 501 6064</p>
                         </div>
                     </div>
                     <div class="contact-info-item">
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
                             <h4>Location</h4>
-                            <p>Lagos, Nigeria</p>
+                            <p>Toronto, Canada</p>
                         </div>
                     </div>
                     <div class="social-icons">
                         <a href="https://www.linkedin.com/in/francesodurukwe/" class="social-icon" target="_blank">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
-                        <a href="#" class="social-icon" target="_blank">
+                        <a href="http://twitter.com/PoundsEgoIgwe"  class="social-icon" target="_blank">
                             <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="#" class="social-icon" target="_blank">
-                            <i class="fab fa-dribbble"></i>
-                        </a>
-                        <a href="#" class="social-icon" target="_blank">
-                            <i class="fab fa-behance"></i>
                         </a>
                     </div>
                 </div>
@@ -1056,14 +992,15 @@
                         <a href="https://www.linkedin.com/in/francesodurukwe/" class="social-icon" target="_blank">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
-                        <a href="#" class="social-icon" target="_blank">
+                        <a href="http://twitter.com/PoundsEgoIgwe" class="social-icon" target="_blank">
                             <i class="fab fa-twitter"></i>
                         </a>
-                        <a href="#" class="social-icon" target="_blank">
-                            <i class="fab fa-dribbble"></i>
-                        </a>
-                        <a href="#" class="social-icon" target="_blank">
-                            <i class="fab fa-behance"></i>
-                        </a>
                     </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
                 
+            
