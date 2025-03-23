@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f5f7fa" />
+  
+  <!-- Dashboard Container -->
+  <rect x="50" y="50" width="700" height="500" rx="8" fill="#fff" stroke="#eaeaea" stroke-width="1" />
+  
+  <!-- Header -->
+  <rect x="50" y="50" width="700" height="60" rx="8" fill="#0077B5" />
+  <text x="80" y="90" font-family="Arial" font-size="24" font-weight="bold" fill="#fff">RBC Churn Data Analysis</text>
+  
+  <!-- Left Panel - Customer Overview -->
+  <rect x="70" y="130" width="320" height="180" rx="5" fill="#fff" stroke="#eaeaea" stroke-width="1" />
+  <text x="90" y="160" font-family="Arial" font-size="18" font-weight="bold" fill="#333">Customer Overview</text>
+  
+  <!-- Customer Stats -->
+  <rect x="90" y="180" width="130" height="100" rx="5" fill="#e3f2fd" />
+  <text x="105" y="205" font-family="Arial" font-size="14" fill="#333">Total Customers</text>
+  <text x="105" y="240" font-family="Arial" font-size="28" font-weight="bold" fill="#0077B5">10,245</text>
+  
+  <rect x="240" y="180" width="130" height="100" rx="5" fill="#ffebee" />
+  <text x="255" y="205" font-family="Arial" font-size="14" fill="#333">Churn Rate</text>
+  <text x="255" y="240" font-family="Arial" font-size="28" font-weight="bold" fill="#e53935">20.8%</text>
+  
+  <!-- Right Panel - Churn by Segment -->
+  <rect x="410" y="130" width="320" height="180" rx="5" fill="#fff" stroke="#eaeaea" stroke-width="1" />
+  <text x="430" y="160" font-family="Arial" font-size="18" font-weight="bold" fill="#333">Churn by Segment</text>
+  
+  <!-- Horizontal Bar Chart -->
+  <text x="430" y="195" font-family="Arial" font-size="12" fill="#555">Premium</text>
+  <rect x="500" y="185" width="200" height="15" rx="2" fill="#eeeeee" />
+  <rect x="500" y="185" width="30" height="15" rx="2" fill="#0077B5" />
+  <text x="535" y="197" font-family="Arial" font-size="10" fill="#333">15%</text>
+  
+  <text x="430" y="225" font-family="Arial" font-size="12" fill="#555">Standard</text>
+  <rect x="500" y="215" width="200" height="15" rx="2" fill="#eeeeee" />
+  <rect x="500" y="215" width="38" height="15" rx="2" fill="#0077B5" />
+  <text x="543" y="227" font-family="Arial" font-size="10" fill="#333">19%</text>
+  
+  <text x="430" y="255" font-family="Arial" font-size="12" fill="#555">Basic</text>
+  <rect x="500" y="245" width="200" height="15" rx="2" fill="#eeeeee" />
+  <rect x="500" y="245" width="56" height="15" rx="2" fill="#0077B5" />
+  <text x="561" y="257" font-family="Arial" font-size="10" fill="#333">28%</text>
+
+  <text x="430" y="285" font-family="Arial" font-size="12" fill="#555">New</text>
+  <rect x="500" y="275" width="200" height="15" rx="2" fill="#eeeeee" />
+  <rect x="500" y="275" width="44" height="15" rx="2" fill="#0077B5" />
+  <text x="549" y="287" font-family="Arial" font-size="10" fill="#333">22%</text>
+  
+  <!-- Bottom Left - Churn Reasons -->
+  <rect x="70" y="330" width="320" height="200" rx="5" fill="#fff" stroke="#eaeaea" stroke-width="1" />
+  <text x="90" y="360" font-family="Arial" font-size="18" font-weight="bold" fill="#333">Top Churn Reasons</text>
+  
+  <!-- Pie Chart -->
+  <circle cx="220" cy="440" r="80" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="1" />
+  
+  <!-- Pie Slices -->
+  <path d="M 220 440 L 220 360 A 80 80 0 0 1 291 483 z" fill="#0077B5" />
+  <path d="M 220 440 L 291 483 A 80 80 0 0 1 149 483 z" fill="#5C6BC0" />
+  <path d="M 220 440 L 149 483 A 80 80 0 0 1 170 369 z" fill="#26A69A" />
+  <path d="M 220 440 L 170 369 A 80 80 0 0 1 220 360 z" fill="#FFA726" />
+  
+  <!-- Legend -->
+  <rect x="90" y="380" width="12" height="12" fill="#0077B5" />
+  <text x="110" y="390" font-family="Arial" font-size="11" fill="#333">Better Offers (35%)</text>
+  
+  <rect x="90" y="405" width="12" height="12" fill="#5C6BC0" />
+  <text x="110" y="415" font-family="Arial" font-size="11" fill="#333">Poor Service (30%)</text>
+  
+  <rect x="90" y="430" width="12" height="12" fill="#26A69A" />
+  <text x="110" y="440" font-family="Arial" font-size="11" fill="#333">High Fees (25%)</text>
+  
+  <rect x="90" y="455" width="12" height="12" fill="#FFA726" />
+  <text x="110" y="465" font-family="Arial" font-size="11" fill="#333">Other (10%)</text>
+  
+  <!-- Bottom Right - Risk Prediction -->
+  <rect x="410" y="330" width="320" height="200" rx="5" fill="#fff" stroke="#eaeaea" stroke-width="1" />
+  <text x="430" y="360" font-family="Arial" font-size="18" font-weight="bold" fill="#333">Churn Risk Prediction</text>
+  
+  <!-- Chart Area -->
+  <rect x="430" y="380" width="280" height="130" fill="#f9f9f9" rx="3" />
+  
+  <!-- Scatter Plot Points (representing customers) -->
+  <!-- Low Risk -->
+  <circle cx="450" cy="480" r="4" fill="#4CAF50" opacity="0.7" />
+  <circle cx="460" cy="490" r="4" fill="#4CAF50" opacity="0.7" />
+  <circle cx="470" cy="485" r="4" fill="#4CAF50" opacity="0.7" />
+  <circle cx="480" cy="470" r="4" fill="#4CAF50" opacity="0.7" />
+  <circle cx="490" cy="475" r="4" fill="#4CAF50" opacity="0.7" />
+  <circle cx="485" cy="490" r="4" fill="#4CAF50" opacity="0.7" />
+  <circle cx="495" cy="480" r="4" fill="#4CAF50" opacity="0.7" />
+  <circle cx="505" cy="485" r="4" fill="#4CAF50" opacity="0.7" />
+  <circle cx="475" cy="460" r="4" fill="#4CAF50" opacity="0.7" />
+  <circle cx="465" cy="470" r="4" fill="#4CAF50" opacity="0.7" />
+  <circle cx="500" cy="465" r="4" fill="#4CAF50" opacity="0.7" />
+  <circle cx="510" cy="475" r="4" fill="#4CAF50" opacity="0.7" />
+  <circle cx="520" cy="485" r="4" fill="#4CAF50" opacity="0.7" />
+  <circle cx="530" cy="480" r="4" fill="#4CAF50" opacity="0.7" />
+  
+  <!-- Medium Risk -->
+  <circle cx="535" cy="450" r="4" fill="#FFC107" opacity="0.7" />
+  <circle cx="545" cy="460" r="4" fill="#FFC107" opacity="0.7" />
+  <circle cx="540" cy="440" r="4" fill="#FFC107" opacity="0.7" />
+  <circle cx="530" cy="445" r="4" fill="#FFC107" opacity="0.7" />
+  <circle cx="525" cy="455" r="4" fill="#FFC107" opacity="0.7" />
+  <circle cx="515" cy="450" r="4" fill="#FFC107" opacity="0.7" />
+  <circle cx="555" cy="445" r="4" fill="#FFC107" opacity="0.7" />
+  <circle cx="560" cy="455" r="4" fill="#FFC107" opacity="0.7" />
+  <circle cx="570" cy="440" r="4" fill="#FFC107" opacity="0.7" />
+  <circle cx="580" cy="460" r="4" fill="#FFC107" opacity="0.7" />
+  <circle cx="590" cy="450" r="4" fill="#FFC107" opacity="0.7" />
+  
+  <!-- High Risk -->
+  <circle cx="575" cy="410" r="4" fill="#F44336" opacity="0.7" />
+  <circle cx="585" cy="420" r="4" fill="#F44336" opacity="0.7" />
+  <circle cx="595" cy="415" r="4" fill="#F44336" opacity="0.7" />
+  <circle cx="605" cy="405" r="4" fill="#F44336" opacity="0.7" />
+  <circle cx="615" cy="425" r="4" fill="#F44336" opacity="0.7" />
+  <circle cx="620" cy="415" r="4" fill="#F44336" opacity="0.7" />
+  <circle cx="625" cy="405" r="4" fill="#F44336" opacity="0.7" />
+  <circle cx="630" cy="425" r="4" fill="#F44336" opacity="0.7" />
+  <circle cx="640" cy="410" r="4" fill="#F44336" opacity="0.7" />
+  <circle cx="650" cy="420" r="4" fill="#F44336" opacity="0.7" />
+  <circle cx="660" cy="410" r="4" fill="#F44336" opacity="0.7" />
+  <circle cx="665" cy="400" r="4" fill="#F44336" opacity="0.7" />
+  <circle cx="670" cy="415" r="4" fill="#F44336" opacity="0.7" />
+  
+  <!-- Axes Labels -->
+  <text x="430" y="395" font-family="Arial" font-size="10" fill="#666">Account Age</text>
+  <text x="685" y="490" font-family="Arial" font-size="10" text-anchor="end" fill="#666">Transaction Frequency</text>
+  
+  <!-- Risk Legend -->
+  <rect x="430" y="510" width="12" height="12" fill="#4CAF50" />
+  <text x="450" y="520" font-family="Arial" font-size="11" fill="#333">Low Risk (58%)</text>
+  
+  <rect x="530" y="510" width="12" height="12" fill="#FFC107" />
+  <text x="550" y="520" font-family="Arial" font-size="11" fill="#333">Medium Risk (24%)</text>
+  
+  <rect x="630" y="510" width="12" height="12" fill="#F44336" />
+  <text x="650" y="520" font-family="Arial" font-size="11" fill="#333">High Risk (18%)</text>
+</svg>
